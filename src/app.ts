@@ -14,15 +14,6 @@ import cookieParser from 'cookie-parser';
 dotenv.config();
 
 /**
- * Handle uncaughtExceptions with sentry
- */
-
-if (!process.env.ENV) {
-    console.error("No Environment variable specified. Application will shut down!")
-    process.exit(1);
-}
-
-/**
  * App Variables
  */
 if (!process.env.PORT) {
