@@ -1,0 +1,9 @@
+node_modules/
+dist/
+storage/
+
+.env
+.eslintrc.js
+.prettierrc.js
+launch.json
+.package-lock.json
